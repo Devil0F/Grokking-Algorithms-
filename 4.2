@@ -1,0 +1,9 @@
+def count(arr):
+    if len(arr) == 0:
+        return 0
+    else:
+        arr.pop()
+        return 1 + count(arr)
+
+a = [2,4,6,8]
+print(count(a))
