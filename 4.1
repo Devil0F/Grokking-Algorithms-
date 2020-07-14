@@ -1,0 +1,9 @@
+def sum(arr):
+    sum_arr = 0
+    if len(arr) == 0:
+        return 0
+    else:
+        return arr.pop(0) + sum(arr)
+
+a = [2,4,6,8]
+print(sum(a))
